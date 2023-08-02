@@ -2,7 +2,7 @@
 I：
 scheme：
 ```
-创建一个新的Scheme对象，并将client-go库中的Kubernetes API对象类型注册到Scheme中
+// 创建一个新的Scheme对象，并将client-go库中的Kubernetes API对象类型注册到Scheme中
 import (
     "k8s.io/apimachinery/pkg/runtime"  
     utilruntime "k8s.io/apimachinery/pkg/util/runtime"
