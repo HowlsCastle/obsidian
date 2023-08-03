@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "36d8cb94b472ae0b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "informer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "k8s/operator/operator concept.md",
+                "file": "informer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "k8s/operator/operator concept.md",
+                "file": "informer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "k8s/operator/operator concept.md"
+                "file": "informer.md"
               }
             }
           }
@@ -146,12 +159,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a46dbf6527090574",
+  "active": "36d8cb94b472ae0b",
   "lastOpenFiles": [
+    "k8s/operator/operator concept.md",
+    "informer.md",
     "k8s/operator",
     "k8s",
     "obsidian",
-    "test",
-    "k8s/operator/operator concept.md"
+    "test"
   ]
 }
