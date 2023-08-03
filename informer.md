@@ -9,6 +9,24 @@ how：
 
 
 ```
+lw := cache.ListWatch{  
+   ListFunc: func(options v1.ListOptions) (runtime.Object, error) {  
+   },  
+   WatchFunc: func(options v1.ListOptions) (watch.Interface, error) {  
+  
+   },  
+}  
+store, controller := cache.NewInformer(c.ClusterConfig, &v1beta12.Ingress{}, time.Second*30, cache.ResourceEventHandlerFuncs{  
+   AddFunc: func(obj interface{}) {  
+  
+   },  
+   UpdateFunc: func(oldObj, newObj interface{}) {  
+  
+   },  
+   DeleteFunc: func(obj interface{}) {  
+  
+   },  
+})
 
 ```
 
