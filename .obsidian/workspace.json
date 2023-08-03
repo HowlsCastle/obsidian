@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "k8s/operator.md",
+                "file": "k8s/operator/operator concept.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "k8s/operator.md",
+                "file": "k8s/operator/operator concept.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "k8s/operator.md",
+                "file": "k8s/operator/operator concept.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "k8s/operator.md"
+                "file": "k8s/operator/operator concept.md"
               }
             }
           }
@@ -148,10 +148,10 @@
   },
   "active": "a46dbf6527090574",
   "lastOpenFiles": [
-    "k8s/未命名",
+    "k8s/operator",
     "k8s",
     "obsidian",
     "test",
-    "k8s/operator.md"
+    "k8s/operator/operator concept.md"
   ]
 }
