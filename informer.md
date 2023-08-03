@@ -11,3 +11,7 @@ how：
 ```
 
 ```
+
+webhook
+提供资源初始化和验证能力
+MutatingWebhook和ValidatingWebhook
