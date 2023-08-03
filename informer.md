@@ -9,6 +9,24 @@ how：
 
 
 ```
+Informer, InformerFactory, err := node.NewNodeInformer(c.ClusterConfig)  
+if err != nil {  
+   return  
+}  
+Informer.Informer().AddEventHandler(cache.ResourceEventHandlerFuncs{  
+   AddFunc: func(obj interface{}) {  
+        
+   },  
+   UpdateFunc: func(oldObj, newObj interface{}) {  
+        
+   },  
+   DeleteFunc: func(obj interface{}) {  
+        
+   },  
+})
+
+
+// 生成controller
 lw := cache.ListWatch{  
    ListFunc: func(options v1.ListOptions) (runtime.Object, error) {  
    },  
